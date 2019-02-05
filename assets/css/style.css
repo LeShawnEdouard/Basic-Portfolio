@@ -1,8 +1,26 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
 header {
-    background-color:#ffffff;
-    border:#cccccc;
-    font-family:font-family: 'Georgia', Times, Times New Roman, serif;
-}
-p    {
+    padding:0;
+    margin-bottom:0;
+    background:#ffffff;
+    float:right;
+    width:100%;
     color:#777777;
+    clear:0;
+    overflow:1;
+    height:5;
+    font-size:20;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
+body    {
+    background-image:url(assets/images/cardboard_flat/cardboard_flat.jpg);
+}
+.left {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #4aaaa5;
