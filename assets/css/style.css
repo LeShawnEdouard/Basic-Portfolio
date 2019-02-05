@@ -1,27 +1,25 @@
 * {
     box-sizing: border-box;
-    text-align: center;
 }
 
 
-header {
-    padding:0;
-    margin-bottom:0;
+.header-right {
+    padding:20px;
+    margin-left:100px;
     background:#ffffff;
     float:right;
-    width:100%;
+    width:60%;
     color:#777777;
     clear:0;
     overflow:1;
-    height:5;
+    height:0;
     font-size:20;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 .yourname {
-    text-align:left;
-}
-.tabs   {
-    text-align:right;
+    padding:20px;
+    margin-left:150px;
+    
 }
 body    {
     background-image:url(assets/images/cardboard_flat/cardboard_flat.jpg);
