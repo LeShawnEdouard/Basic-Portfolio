@@ -7,19 +7,16 @@ body    {
     margin:0;
     border: solid orange;
 }
-#header {
-    overflow: hidden;
-    background-color: #ffffff;
-    border: 1px solid red;
-    padding: 20px 10px;
-}
 #header  {
     float: none;
     text-align: none;
-    padding: 12px;
     font-size: 18px;
     line-height: 25px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 20px solid black;
+    border-color: #cccccc;
 }
 #name   {
     float: left;
@@ -29,7 +26,6 @@ body    {
     line-height: 25px;
     background-color: #4aaaa5;
     color: #ffffff;
-
 }
 #header-right {
     color:#777777;
@@ -40,6 +36,7 @@ body    {
     padding: 20px 10px;
     width: 960px;
     margin: auto;
+    margin-top: 20px;
     background-color:#ffffff;
     border-color: #dddddd;
 }
@@ -53,7 +50,6 @@ p   {
 }
 h1  {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    border: auto;
     color: #4aaaa5;
     margin-left: 20px;
 }
@@ -63,11 +59,9 @@ h1  {
     margin-left: 20px;
 }
 hr  {
-    display: block;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 20px;
-    border-color: #dddddd;
-    border-style:solid
-    background-color: #dddddd;
+    margin-bottom: 25px;
+    border-bottom-color: #dddddd;
+    border-bottom-style: solid;
 }
