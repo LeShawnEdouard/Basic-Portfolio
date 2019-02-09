@@ -98,7 +98,7 @@ hr  {
     border-bottom-width: 2px;
 }
 .image2 {
-    float left;
+    /* float: left; */
     margin-right: 20px;
     margin-left: 20px;
 }
