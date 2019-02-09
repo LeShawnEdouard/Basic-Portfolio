@@ -26,13 +26,15 @@ body    {
     background-color: #4aaaa5;
     color: #ffffff;
     position: absolute;
-    left: 265px;
+    left: 268px;
 }
 #header-right {
+    padding: 30px;
     color:#777777;
     font-size:20;
     float: right;
     position: inherit;
+    right: 240px;
 }
 #middle  {
     padding: 20px 10px;
