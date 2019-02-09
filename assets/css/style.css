@@ -14,8 +14,11 @@ body    {
     background-color: #ffffff;
     border: 20px solid white;
     position: relative;
-    height: 80px;
+    height: 82px;
     border-top-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
 }
 #name   {
     float: left;
@@ -38,26 +41,27 @@ body    {
     position: inherit;
     right: 185px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    /* border: 1px solid red; */
     width: 25%;
     text-align: center;
 }
 #header-right a:hover {
     background-color: #4aaaa5;
-    color: white;
-    text-decoration-color:#777777;
+    color: #ffffff;
 }
 .About  {
     padding: 15px;
-    /* border: 1px solid blue: */
+    color:#777777;
+    text-decoration-line: none;
 }
 .Portfolio  {
     padding: 15px;
-    /* border: 1px solid purple; */
+    color:#777777;
+    text-decoration-line: none;
 }
 .Contact    {
     padding: 15px;
-    /* border: 1px solid green; */
+    color:#777777;
+    text-decoration-line: none;
 }
 #middle  {
     padding: 20px 10px;
