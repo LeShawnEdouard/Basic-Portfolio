@@ -95,4 +95,10 @@ hr  {
     margin-bottom: 25px;
     border-bottom-color: #dddddd;
     border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.image2 {
+    float left;
+    margin-right: 20px;
+    margin-left: 20px;
 }
