@@ -148,3 +148,5 @@ input[type=text], select {
 input[type=submit]:hover {
 background-color: #4aaaa5;
 }
+/* I tried changing the right/left margins to align my text 
+boxes with the border in the content section */
